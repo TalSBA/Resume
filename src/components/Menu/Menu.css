@@ -1,0 +1,30 @@
+.c-menu .navbar-brand {
+  font-size: 36px;
+  color: #1cb698 !important;
+  transition: all 0.5s ease 0s;
+  font-family: "Righteous", cursive;
+  font-weight: bold;
+}
+
+.c-menu .navbar-nav {
+  margin-left: auto;
+}
+
+.c-menu .navbar-nav .nav-link {
+  color: white !important;
+  transition: all 0.8s ease 0s;
+  letter-spacing: 0.5px;
+  padding-left: 25px !important;
+}
+
+.c-menu .navbar-toggler {
+  background: #1cb698 none repeat scroll 0 0;
+}
+
+.c-menu .navbar-light .navbar-toggler {
+    color: white !important;
+}
+
+.c-menu .navbar-nav .nav-link:hover{
+    color: #1CB698 !important;
+}
