@@ -1,0 +1,162 @@
+.p-home {
+  background: url("https://goprotemplate.com/work/01_product/assets/images/top_sider_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 700px;
+  position: relative;
+  z-index: 3;
+  padding: 65px 0px;
+}
+
+.p-home .container-banner {
+  max-width: 750px;
+  width: 100%;
+  margin: 0px auto;
+  padding: 30px 0 0;
+  text-align: center;
+  position: relative;
+  background-position: top center;
+}
+
+.p-home .container-banner .banner-contant {
+  margin: 0 auto;
+  display: table;
+  background: #252a2e;
+  box-shadow: -1rem 0 3rem rgb(0 0 0 / 20%);
+  border-radius: 15px;
+  padding: 50px;
+  padding-top: 0px;
+  margin-top: 150px;
+}
+
+.p-home .container-banner .face-images {
+  width: 320px;
+  height: 320px;
+  border-radius: 100%;
+  margin-bottom: 30px;
+  margin-top: -150px;
+  position: relative;
+  z-index: 999;
+}
+
+.p-home .container-banner .face-images .circle-ripple {
+  background-color: transparent;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  animation: ripple 0.7s linear infinite;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  z-index: -1;
+  transform: translateY(-50%);
+}
+
+.p-home .container-banner .face-images img {
+  border: 12px solid #1cb698;
+  border-radius: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.p-home .container-banner .banner-contant .banner-text {
+  margin-bottom: 30px;
+}
+
+.p-home .container-banner .banner-contant .banner-text h1 {
+  font-family: "Rightous";
+  color: #fff;
+  font-size: 48px;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+.p-home .container-banner .banner-contant .banner-text h2 {
+  color: #fff;
+  font-size: 17px;
+  line-height: 24px;
+}
+.p-home .container-banner .banner-contant .social {
+  margin: 0 auto;
+  display: table;
+  padding: 0;
+}
+.p-home .container-banner .banner-contant .social li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.p-home .container-banner .banner-contant .social li a {
+  font-size: 20px;
+  color: #fff;
+  width: 42px;
+  height: 42px;
+  line-height: 42px;
+  text-align: center;
+  display: block;
+  border-radius: 100%;
+  border: 1px solid #fff;
+}
+.p-home .container-banner .banner-contant .social li a:hover {
+  background: #1cb698;
+  border-color: #1cb698;
+}
+ol,
+ul {
+  list-style: none;
+}
+
+@font-face {
+  font-family: Rightous;
+  src: url(../../Style/Righteous/Righteous-Regular.ttf);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.fadeIn {
+  animation-name: fadeIn;
+}
+
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    -ms-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes ripple {
+  0% {
+    box-shadow: 0 0 0 0 rgb(28 182 152 / 20%), 0 0 0 1em rgb(28 182 152 / 20%),
+      0 0 0 3em rgb(28 182 152 / 20%), 0 0 0 5em rgb(28 182 152 / 20%);
+  }
+  100% {
+    box-shadow: 0 0 0 1em rgb(28 182 152 / 20%), 0 0 0 3em rgb(28 182 152 / 20%),
+      0 0 0 5em rgb(28 182 152 / 20%), 0 0 0 8em rgb(28 182 152 / 0%);
+  }
+}
+
+.zoomIn {
+  animation-name: zoomIn;
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+.animated.infinite {
+  animation-iteration-count: infinite;
+}
