@@ -1,9 +1,9 @@
-.c-menu{
-    position: fixed !important;
-    top: 0 !important;
-    width: 100%;
-    z-index: 9999 !important;
-    background: #1E2326;
+.c-menu {
+  position: fixed !important;
+  top: 0 !important;
+  width: 100%;
+  z-index: 9999 !important;
+  background: #1e2326;
 }
 
 .c-menu .navbar-brand {
@@ -30,9 +30,9 @@
 }
 
 .c-menu .navbar-light .navbar-toggler {
-    color: white !important;
+  color: white !important;
 }
 
-.c-menu .navbar-nav .nav-link:hover{
-    color: #1CB698 !important;
+.c-menu .navbar-nav .nav-link:hover {
+  color: #1cb698 !important;
 }
