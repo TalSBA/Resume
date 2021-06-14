@@ -8,10 +8,9 @@ import {
   FaInfoCircle,
   FaPaintBrush,
   FaPlane,
-  FaTripadvisor,
-  FaWeight,
 } from "react-icons/fa";
 import "./About.css";
+import cvFile from "./CVFile/TalShabtayResume.pdf";
 
 function About(props) {
   return (
@@ -91,7 +90,7 @@ function About(props) {
         </Col>
       </Row>
       <div className="download-cv">
-          <a>Download CV <FaDownload/></a>
+          <a href={`${cvFile}`} target="_blank">Download CV <FaDownload/></a>
       </div>
     </div>
   );
