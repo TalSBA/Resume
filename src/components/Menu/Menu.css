@@ -1,3 +1,11 @@
+.c-menu{
+    position: fixed !important;
+    top: 0 !important;
+    width: 100%;
+    z-index: 9999 !important;
+    background: #1E2326;
+}
+
 .c-menu .navbar-brand {
   font-size: 36px;
   color: #1cb698 !important;
@@ -7,7 +15,7 @@
 }
 
 .c-menu .navbar-nav {
-  margin-left: auto;
+  margin-left: auto !important;
 }
 
 .c-menu .navbar-nav .nav-link {

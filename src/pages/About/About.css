@@ -1,0 +1,51 @@
+.p-about{
+    padding: 50px;
+    text-align: center;
+}
+
+.p-about h2{
+    color: white !important;
+    font-family: 'Righteous';
+    font-size: 48px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.p-about h2::before{
+    position: absolute;
+    content: "";
+    border-bottom: 1px solid #1CB698;
+    width: 80px;
+    bottom: 8px;
+    left: 0px;
+    right: 0px;
+    margin: 0 auto;
+}
+
+.p-about h2::after{
+    position: absolute;
+    content: "";
+    border-bottom: 1px solid #1CB698;
+    width: 40px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: 0 auto;
+    display: table;
+}
+
+.p-about svg{
+    color: #1cb698;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.p-about .general-info{
+    text-align: left;
+    color: white;
+}
+
+@font-face {
+    font-family: Righteous;
+    src: url(../../Style/Righteous/Righteous-Regular.ttf);
+  }
