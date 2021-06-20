@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-    FaDownload,
+  FaDownload,
   FaDumbbell,
   FaFilm,
   FaHeadphones,
@@ -15,13 +15,15 @@ import cvFile from "./CVFile/TalShabtayResume.pdf";
 function About(props) {
   return (
     <div className="p-about">
-      <FaInfoCircle />
-      <h2>About me</h2>
-      <div className="general-info">
+      <div className="title animated fadeInUp">
+        <FaInfoCircle />
+        <h2>About me</h2>
+      </div>
+      <div className="general-info animated fadeInUp">
         <span style={{ color: "#1cb698", fontWeight: "bold" }}>
           Hello! I'm Tal.
         </span>{" "}
-        A software developer with over 3 years experience, experienced in C #
+        A software developer with over 3 years experience, experienced in C#
         software development and client-side experience in React. Brings with me
         learning and integration skills, excellent human relations, teamwork,
         and high level technical sense. Looking for a Frontend / Fullstack
@@ -29,7 +31,7 @@ function About(props) {
       </div>
       <Row>
         <Col>
-          <div className="personal-details">
+          <div className="personal-details animated fadeInUp">
             <ul>
               <h3>Personal Details</h3>
               <li>
@@ -48,7 +50,7 @@ function About(props) {
           </div>
         </Col>
         <Col>
-          <div className="interests">
+          <div className="interests animated fadeInUp">
             <h3>My Interests</h3>
             <ul>
               <Row>
@@ -89,8 +91,8 @@ function About(props) {
           </div>
         </Col>
       </Row>
-      <div className="download-cv">
-          <a href={`${cvFile}`} target="_blank">Download CV <FaDownload/></a>
+      <div className="download-cv animated fadeInUp">
+        <a href={`${cvFile}`} target="_blank">Download CV <FaDownload /></a>
       </div>
     </div>
   );
