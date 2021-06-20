@@ -1,0 +1,61 @@
+@import "../../Style/animate.css";
+.p-skills {
+    padding: 40px 150px;
+    text-align: center;
+    background: #252A2E
+}
+
+.p-skills .title {
+    animation-name: fadeInUp;
+}
+
+.p-skills .title h2 {
+    color: white !important;
+    font-family: "Righteous";
+    font-size: 48px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.p-skills .title h2::before {
+    position: absolute;
+    content: "";
+    border-bottom: 1px solid #1cb698;
+    width: 80px;
+    bottom: 8px;
+    left: 0px;
+    right: 0px;
+    margin: 0 auto;
+}
+
+.p-skills .title h2::after {
+    position: absolute;
+    content: "";
+    border-bottom: 1px solid #1cb698;
+    width: 40px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: 0 auto;
+    display: table;
+}
+
+.p-skills .title>svg {
+    color: #1cb698;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.p-skills h3 {
+    color: white !important;
+    text-align: left;
+    font-family: Righteous;
+}
+
+
+
+@font-face {
+    font-family: Righteous;
+    src: url(../../Style/Righteous/Righteous-Regular.ttf);
+}

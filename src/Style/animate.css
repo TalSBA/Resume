@@ -2660,3 +2660,20 @@ animation-timing-function:cubic-bezier(0.175, .885, .32, 1)
 	-webkit-animation-name: zoomOutUp;
 	animation-name: zoomOutUp
 }
+
+@keyframes ripple {
+	0% {
+	  box-shadow: 0 0 0 0 rgb(28 182 152 / 20%), 0 0 0 1em rgb(28 182 152 / 20%),
+		0 0 0 3em rgb(28 182 152 / 20%), 0 0 0 5em rgb(28 182 152 / 20%);
+	}
+	100% {
+	  box-shadow: 0 0 0 1em rgb(28 182 152 / 20%), 0 0 0 3em rgb(28 182 152 / 20%),
+		0 0 0 5em rgb(28 182 152 / 20%), 0 0 0 8em rgb(28 182 152 / 0%);
+	}
+  }
+
+  @keyframes animationProgress {
+	0%{
+		width: 0;
+	}
+  }

@@ -1,3 +1,5 @@
+@import "../../Style/animate.css";
+
 .p-home {
   background: url("https://goprotemplate.com/work/01_product/assets/images/top_sider_bg.jpg");
   background-repeat: no-repeat;
@@ -113,51 +115,4 @@ ul {
 @font-face {
   font-family: Rightous;
   src: url(../../Style/Righteous/Righteous-Regular.ttf);
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-.fadeIn {
-  animation-name: fadeIn;
-}
-
-@keyframes zoomIn {
-  0% {
-    opacity: 0;
-    -webkit-transform: scale3d(0.3, 0.3, 0.3);
-    -ms-transform: scale3d(0.3, 0.3, 0.3);
-    transform: scale3d(0.3, 0.3, 0.3);
-  }
-  50% {
-    opacity: 1;
-  }
-}
-
-@keyframes ripple {
-  0% {
-    box-shadow: 0 0 0 0 rgb(28 182 152 / 20%), 0 0 0 1em rgb(28 182 152 / 20%),
-      0 0 0 3em rgb(28 182 152 / 20%), 0 0 0 5em rgb(28 182 152 / 20%);
-  }
-  100% {
-    box-shadow: 0 0 0 1em rgb(28 182 152 / 20%), 0 0 0 3em rgb(28 182 152 / 20%),
-      0 0 0 5em rgb(28 182 152 / 20%), 0 0 0 8em rgb(28 182 152 / 0%);
-  }
-}
-
-.zoomIn {
-  animation-name: zoomIn;
-}
-
-.animated {
-  animation-duration: 1s;
-  animation-fill-mode: both;
-}
-.animated.infinite {
-  animation-iteration-count: infinite;
 }
