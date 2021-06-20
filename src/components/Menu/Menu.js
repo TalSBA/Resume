@@ -14,12 +14,12 @@ function Menu(props) {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav>
-            <Nav.Link href="#features">HOME</Nav.Link>
-            <Nav.Link href="#pricing">ABOUT</Nav.Link>
-            <Nav.Link href="#pricing">SKILLS</Nav.Link>
-            <Nav.Link href="#pricing">RESUME</Nav.Link>
-            <Nav.Link href="#pricing">PORTFOLIO</Nav.Link>
-            <Nav.Link href="#pricing">CONTACT</Nav.Link>
+            <Nav.Link href="#home">HOME</Nav.Link>
+            <Nav.Link href="#about">ABOUT</Nav.Link>
+            <Nav.Link href="#skills">SKILLS</Nav.Link>
+            <Nav.Link href="#resume">RESUME</Nav.Link>
+            <Nav.Link href="#portfolio">PORTFOLIO</Nav.Link>
+            <Nav.Link href="#contact">CONTACT</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

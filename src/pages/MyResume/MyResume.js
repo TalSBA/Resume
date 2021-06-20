@@ -7,7 +7,7 @@ import ExperienceItem from '../../components/ExperienceItem/ExperienceItem';
 
 function MyResume(props) {
     return (
-        <section className="p-my-resum">
+        <section className="p-my-resum" id="resume">
             <div className="title animated fadeInUp">
                 <FaIdCard />
                 <h2>My Resume</h2>

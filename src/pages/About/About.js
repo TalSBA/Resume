@@ -14,7 +14,7 @@ import cvFile from "./CVFile/TalShabtayResume.pdf";
 
 function About(props) {
   return (
-    <section className="p-about">
+    <section className="p-about" id="about">
       <div className="title animated fadeInUp">
         <FaInfoCircle />
         <h2>About me</h2>

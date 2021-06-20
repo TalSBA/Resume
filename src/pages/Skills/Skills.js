@@ -7,7 +7,7 @@ import SkillSection from '../../components/SkillSection/SkillSection';
 
 function Skills(props) {
     return (
-        <section className="p-skills">
+        <section className="p-skills" id="skills">
             <div className="title animated fadeInUp">
                 <GiSkills />
                 <h2>Skills</h2>

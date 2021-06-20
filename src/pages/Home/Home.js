@@ -5,7 +5,7 @@ import { FaFacebookF, FaGithub, FaLinkedinIn } from 'react-icons/fa';
 
 function Home(props) {
   return (
-    <section className="p-home fadeIn animated">
+    <section className="p-home fadeIn animated" id="home">
       <figcaption>
         <div className="container-banner zoomIn animated">
           <div className="banner-contant">
