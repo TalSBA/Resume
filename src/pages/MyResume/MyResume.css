@@ -1,0 +1,69 @@
+@import "../../Style/animate.css";
+.p-my-resum {
+    padding: 40px 150px;
+    text-align: center;
+}
+
+.p-my-resum .title {
+    animation-name: fadeInUp;
+}
+
+.p-my-resum .title h2 {
+    color: white !important;
+    font-family: "Righteous";
+    font-size: 48px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.p-my-resum .title h2::before {
+    position: absolute;
+    content: "";
+    border-bottom: 1px solid #1cb698;
+    width: 80px;
+    bottom: 8px;
+    left: 0px;
+    right: 0px;
+    margin: 0 auto;
+}
+@import "../../Style/animate.css";
+
+.p-my-resum .title h2::after {
+    position: absolute;
+    content: "";
+    border-bottom: 1px solid #1cb698;
+    width: 40px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: 0 auto;
+    display: table;
+}
+
+.p-my-resum .title>svg {
+    color: #1cb698;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.p-my-resum h3 {
+    color: white !important;
+    text-align: left;
+    font-family: Righteous;
+}
+
+.p-my-resum .education-details{
+    padding-right: 35px;
+    border-right: 1px solid #333;
+}
+
+.p-my-resum .experience-details{
+    padding-left: 35px;
+    border-left: 1px solid #333;
+}
+
+@font-face {
+    font-family: Righteous;
+    src: url(../../Style/Righteous/Righteous-Regular.ttf);
+}

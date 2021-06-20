@@ -2,6 +2,7 @@ import React from "react";
 import Menu from "../../components/Menu/Menu";
 import About from "../About/About";
 import Home from "../Home/Home";
+import MyResume from "../MyResume/MyResume";
 import Skills from "../Skills/Skills";
 
 function Resume(props) {
@@ -11,6 +12,7 @@ function Resume(props) {
       <Home />
       <About />
       <Skills />
+      <MyResume />
     </div>
   );
 }
