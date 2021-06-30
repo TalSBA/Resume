@@ -1,27 +1,33 @@
 {
   "files": {
-    "main.css": "/Resume/static/css/main.6aabd460.chunk.css",
-    "main.js": "/Resume/static/js/main.c74932f5.chunk.js",
-    "main.js.map": "/Resume/static/js/main.c74932f5.chunk.js.map",
+    "main.css": "/Resume/static/css/main.a62c89e6.chunk.css",
+    "main.js": "/Resume/static/js/main.212729db.chunk.js",
+    "main.js.map": "/Resume/static/js/main.212729db.chunk.js.map",
     "runtime-main.js": "/Resume/static/js/runtime-main.4980b913.js",
     "runtime-main.js.map": "/Resume/static/js/runtime-main.4980b913.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/Resume/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.33c203be.chunk.js": "/Resume/static/js/2.33c203be.chunk.js",
-    "static/js/2.33c203be.chunk.js.map": "/Resume/static/js/2.33c203be.chunk.js.map",
+    "static/js/2.57260d47.chunk.js": "/Resume/static/js/2.57260d47.chunk.js",
+    "static/js/2.57260d47.chunk.js.map": "/Resume/static/js/2.57260d47.chunk.js.map",
     "index.html": "/Resume/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/Resume/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.6aabd460.chunk.css.map": "/Resume/static/css/main.6aabd460.chunk.css.map",
-    "static/js/2.33c203be.chunk.js.LICENSE.txt": "/Resume/static/js/2.33c203be.chunk.js.LICENSE.txt",
+    "static/css/main.a62c89e6.chunk.css.map": "/Resume/static/css/main.a62c89e6.chunk.css.map",
+    "static/js/2.57260d47.chunk.js.LICENSE.txt": "/Resume/static/js/2.57260d47.chunk.js.LICENSE.txt",
+    "static/media/DogsApp.78317b64.PNG": "/Resume/static/media/DogsApp.78317b64.PNG",
+    "static/media/MoviesApp.b2043b94.PNG": "/Resume/static/media/MoviesApp.b2043b94.PNG",
+    "static/media/ResumeApp.01b2a4a4.PNG": "/Resume/static/media/ResumeApp.01b2a4a4.PNG",
     "static/media/Skills.css": "/Resume/static/media/Righteous-Regular.fd011047.ttf",
     "static/media/TalShabtay.9f1db459.jpg": "/Resume/static/media/TalShabtay.9f1db459.jpg",
     "static/media/TalShabtayResume.ee5bf1a8.pdf": "/Resume/static/media/TalShabtayResume.ee5bf1a8.pdf",
+    "static/media/TodosApp.b74234d8.png": "/Resume/static/media/TodosApp.b74234d8.png",
+    "static/media/TorApp.434c8708.PNG": "/Resume/static/media/TorApp.434c8708.PNG",
+    "static/media/WeatherApp.2c90c461.PNG": "/Resume/static/media/WeatherApp.2c90c461.PNG",
     "static/media/EducationItem.css": "/Resume/static/media/WorkSans-VariableFont_wght.7655b042.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.4980b913.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.33c203be.chunk.js",
-    "static/css/main.6aabd460.chunk.css",
-    "static/js/main.c74932f5.chunk.js"
+    "static/js/2.57260d47.chunk.js",
+    "static/css/main.a62c89e6.chunk.css",
+    "static/js/main.212729db.chunk.js"
   ]
 }
