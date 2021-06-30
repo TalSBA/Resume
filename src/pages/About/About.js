@@ -9,6 +9,7 @@ import {
   FaPaintBrush,
   FaPlane,
 } from "react-icons/fa";
+import { GiCupcake } from 'react-icons/gi';
 import "./About.css";
 import cvFile from "./CVFile/TalShabtayResume.pdf";
 
@@ -85,6 +86,12 @@ function About(props) {
                     <FaFilm />
                   </p>
                   <span>Movies</span>
+                </li>
+                <li>
+                  <p>
+                    <GiCupcake />
+                  </p>
+                  <span>Baking</span>
                 </li>
               </Row>
             </ul>

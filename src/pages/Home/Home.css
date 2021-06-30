@@ -102,6 +102,7 @@
   display: block;
   border-radius: 100%;
   border: 1px solid #fff;
+  transition: all 0.8s ease 0s;
 }
 .p-home .container-banner .banner-contant .social li a:hover {
   background: #1cb698;
