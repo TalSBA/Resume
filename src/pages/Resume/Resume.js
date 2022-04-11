@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../../components/Footer/Footer";
 import Menu from "../../components/Menu/Menu";
 import About from "../About/About";
 import Home from "../Home/Home";
@@ -15,6 +16,7 @@ function Resume(props) {
       <Skills />
       <MyResume />
       <Protfolio />
+      <Footer />
     </div>
   );
 }

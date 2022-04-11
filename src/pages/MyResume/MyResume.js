@@ -26,6 +26,10 @@ function MyResume(props) {
                 <Col>
                     <h3 className="animated fadeInUp">Work Experience</h3>
                     <div className="experience-details">
+                        <ExperienceItem title="Fullstack Engineer" companyName="Meitav Dash" companyLink="https://www.meitavdash.co.il/?&ref=google&network=g&campaignid=10362107186&adgroupid=108792767691&feeditemid=&keyword=%D7%9E%D7%99%D7%98%D7%91%20%D7%93%D7%A9&matchtype=e&creative=443826218370&adposition=&device=c&devicemodel=&placement=&target=&gclid=CjwKCAjwo8-SBhAlEiwAopc9W-Icj5EkrcDxFjZc7o223ASz2yxX73JSayhLTDkIqwbRO2xaT-opjxoCmZoQAvD_BwE&gclsrc=aw.ds" years="2021 - Current" description="...
+                    "/>
+                    </div>
+                    <div className="experience-details">
                         <ExperienceItem title="Software Engineer" companyName="Tomax" companyLink="https://tomaxltd.com" years="2017 - 2020" description="Designing and developing systems from scratch.
                     Support and maintenance of legasy code systems, detection and treatment of malfunctions.
                     C# desktop development in VS.
