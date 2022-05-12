@@ -34,8 +34,8 @@ function MyResume(props) {
                     </div>
                     <div className="experience-details">
                         <ExperienceItem title="Software Engineer" companyName="Tomax" companyLink="https://tomaxltd.com" years="2017 - 2020" description="Designing and developing systems from scratch.
-                    Support and maintenance of legasy code systems, detection and treatment of malfunctions.
-                    C# desktop development in VS.
+                    - Support and maintenance of legasy code systems, detection and treatment of malfunctions.
+                    - C# desktop development in VS.
                     - Developing a file management site using React & Vue JS, using VS Code environment.
                     Work directly with the company's CTO.
                     - Developing desktop applications which used by most universities and colleges in Israel.
