@@ -34,10 +34,7 @@ function About(props) {
         <Col>
           <div className="personal-details animated fadeInUp">
             <ul>
-              <h3>Personal Details</h3>
-              <li>
-                <strong>Birthdate</strong> 09-26-1989
-              </li>
+              <h3>Contact Details</h3>
               <li>
                 <strong>Phone</strong> +972527436743
               </li>

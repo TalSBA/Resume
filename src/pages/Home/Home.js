@@ -15,7 +15,7 @@ function Home(props) {
             </div>
             <div className="banner-text">
                 <h1>Tal Shabtay</h1>
-                <h2>Frontend Developer</h2>
+                <h2>Frontend Engineer</h2>
             </div>
             <ul className="social">
                 <li><a href="https://www.linkedin.com/in/tal-shabtay-6ba23593/" target="_blank"><FaLinkedinIn /></a></li>

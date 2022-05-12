@@ -19,7 +19,6 @@ function Menu(props) {
             <Nav.Link href="#skills">SKILLS</Nav.Link>
             <Nav.Link href="#resume">RESUME</Nav.Link>
             <Nav.Link href="#portfolio">PORTFOLIO</Nav.Link>
-            <Nav.Link href="#contact">CONTACT</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

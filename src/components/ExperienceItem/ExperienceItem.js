@@ -2,13 +2,17 @@ import React from 'react';
 import "./ExperienceItem.css";
 
 function ExperienceItem({title, companyName, companyLink, years, description}) {
+    const descriptionArr = description.split('-')
     return (
         <div className="experience-item animated fadeInUp">
-            <h4>{title} From <a href={companyLink} target="_blank">{companyName}</a></h4>
+            <h4>{title} - <a href={companyLink} target="_blank">{companyName}</a></h4>
             <div className="years">
                 {years}
             </div>
-            <p>{description}</p>
+            {descriptionArr.map(desc =>{
+                return <p>- {desc}</p>
+            })}
+            {/* <p>{description.replaceAll("-", "\n")}</p> */}
         </div>
     );
 }

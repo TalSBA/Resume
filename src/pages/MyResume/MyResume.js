@@ -26,17 +26,20 @@ function MyResume(props) {
                 <Col>
                     <h3 className="animated fadeInUp">Work Experience</h3>
                     <div className="experience-details">
-                        <ExperienceItem title="Fullstack Engineer" companyName="Meitav Dash" companyLink="https://www.meitavdash.co.il/?&ref=google&network=g&campaignid=10362107186&adgroupid=108792767691&feeditemid=&keyword=%D7%9E%D7%99%D7%98%D7%91%20%D7%93%D7%A9&matchtype=e&creative=443826218370&adposition=&device=c&devicemodel=&placement=&target=&gclid=CjwKCAjwo8-SBhAlEiwAopc9W-Icj5EkrcDxFjZc7o223ASz2yxX73JSayhLTDkIqwbRO2xaT-opjxoCmZoQAvD_BwE&gclsrc=aw.ds" years="2021 - Current" description="...
+                        <ExperienceItem title="Fullstack Engineer" companyName="Meitav Dash" companyLink="https://www.meitavdash.co.il/?&ref=google&network=g&campaignid=10362107186&adgroupid=108792767691&feeditemid=&keyword=%D7%9E%D7%99%D7%98%D7%91%20%D7%93%D7%A9&matchtype=e&creative=443826218370&adposition=&device=c&devicemodel=&placement=&target=&gclid=CjwKCAjwo8-SBhAlEiwAopc9W-Icj5EkrcDxFjZc7o223ASz2yxX73JSayhLTDkIqwbRO2xaT-opjxoCmZoQAvD_BwE&gclsrc=aw.ds" years="2021 - Current" description="Build and maintain the user management website by using React and .NET Web API.
+- Lead the website rebrand by working closely with Product and UI / UX managers.
+- Design, develop and rollout a new features E2E including frontend and backend developments.
+- Rewrite old website pages and components from AngularJS and .NET framework to React and .NET Core.
                     "/>
                     </div>
                     <div className="experience-details">
                         <ExperienceItem title="Software Engineer" companyName="Tomax" companyLink="https://tomaxltd.com" years="2017 - 2020" description="Designing and developing systems from scratch.
                     Support and maintenance of legasy code systems, detection and treatment of malfunctions.
                     C# desktop development in VS.
-                    Developing a file management site using React & Vue JS, using VS Code environment.
+                    - Developing a file management site using React & Vue JS, using VS Code environment.
                     Work directly with the company's CTO.
-                    Developing desktop applications which used by most universities and colleges in Israel.
-                    Working with C# .NET, VS, Winforms, Duplex Service, SQL, WCF, Web API, MySQL, HTML, AWS, Git, JIRA."/>
+                    - Developing desktop applications which used by most universities and colleges in Israel.
+                    - Working with C# .NET, VS, Winforms, Duplex Service, SQL, WCF, Web API, MySQL, HTML, AWS, Git, JIRA."/>
                     </div>
                 </Col>
 
